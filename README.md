@@ -1,5 +1,5 @@
-#Projeto TodoList.
-##Esse projeto foi um desafio do curso Igínit, onde o professo pede para os alunos desenvolver um projeto TodoList, baseado em um prototipo figma.
+# Projeto TodoList.
+## Esse projeto foi um desafio do curso Igínit, onde o professo pede para os alunos desenvolver um projeto TodoList, baseado em um prototipo figma.
 Nele você pode adicinar tarefas e fazer o controle das mesma, colocando como comcluidas ou em progresso e deletas a concluídas.
 
 

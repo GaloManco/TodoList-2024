@@ -1,0 +1,37 @@
+.header{
+    width: 90rem;
+    height: 12.5rem;
+    background: var(--gray-700);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.boxLogo {
+    width: 7.87rem ;
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+.boxLogo img {
+    width: 1.37rem;
+    height: 2.25rem;
+
+}
+.boxLogo strong {
+    font-size: 2.5rem;
+    color: var(--blue);
+    font-weight: 600;
+    
+   
+    
+}
+.boxLogo span {
+    color: var(--purple-dark);
+}

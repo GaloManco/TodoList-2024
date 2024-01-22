@@ -1,0 +1,29 @@
+.semTarefa {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 46rem;
+    height: 15.25rem;
+
+    border-top: 2px solid var(--gray-400);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.semTarefa img {
+    display: block;
+    margin-bottom: 1rem;
+}
+.semTarefa strong {
+    font-size: 1rem;
+    color: var(--gray-300);
+    font-weight: bolder;
+}
+.semTarefa span {
+    font-size: 1rem;
+    color: var(--gray-300);
+    font-weight: lighter;
+}

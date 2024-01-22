@@ -1,0 +1,104 @@
+
+
+.tarefas {    
+    display: flex;
+   
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 46rem;
+    height: 4.5rem;
+
+    border: 2px solid var(--gray-400);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    
+    background: var(--gray-500);
+    padding: 1rem;
+}
+
+.tarefas input{
+    appearance: none;
+    content: '';
+
+    border: 2px solid var(--blue);
+    width: 1.5rem;
+    height: 1.5rem;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.tarefas input:hover{
+    border: 2px solid var(--blue-dark);
+}
+.tarefas input::before{
+    position: absolute;
+    content: '';
+    width: 0.3rem;
+    height: 0.7rem;
+
+    border-right: 2px solid var(--gray-100);
+    border-bottom: 2px solid var(--gray-100);
+    transform: rotate(45deg);
+
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    
+    opacity: 0;
+
+}
+
+.tarefas input:checked::before{
+    opacity: 1;
+}
+
+.tarefas input:checked {
+    border: none;
+    background: var(--purple-dark);
+}
+.tarefas input:checked:hover {
+    background: var(--purple);
+}
+
+
+.tarefas:has(input:checked)  p {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+
+.tarefas p{
+    width: 39rem;
+    height: 2.5rem;
+    font-weight: lighter;
+    font-size: 0.87rem;
+    color: var(--gray-100);
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.tarefas button {
+    background:transparent;
+    border: 0;
+    cursor: pointer;
+}
+.tarefas svg {
+    color: var(--gray-300);
+    font-size: 1.5rem;
+    border: 0;
+ 
+
+}
+.tarefas svg:hover {
+
+    color: var(--danger);
+
+}

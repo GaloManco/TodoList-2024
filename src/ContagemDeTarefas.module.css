@@ -1,0 +1,82 @@
+.boxTarefa {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boxTarefa > header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 46rem;
+    height: 1.19rem;
+
+
+}
+
+.boxTarefa > header strong {
+    display: flex;
+    gap: 0.5rem;
+
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 1rem;
+    font-weight: bolder;
+
+    user-select: none;
+
+
+
+
+}
+.boxTarefa > header strong:hover{
+    color: var(--blue-dark);
+}
+.boxTarefa > header strong p{
+    width: 1.56rem;
+    height: 1.19rem;
+
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--gray-400);
+    border-radius: 999px;
+
+
+}
+.boxTarefa > header span{
+    display: flex;
+
+    gap: 0.5rem;
+
+    color: var(--purple);
+    font-size: 1rem;
+    font-weight: 1rem;
+    font-weight: bolder;
+
+    user-select: none;
+}
+.boxTarefa > header span:hover{
+    color: var(--purple-dark);
+}
+.boxTarefa > header span p {
+
+    width: 4rem;
+    height: 1.19rem;
+
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--gray-400);
+    border-radius: 999px;
+}
